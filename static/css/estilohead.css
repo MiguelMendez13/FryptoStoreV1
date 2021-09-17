@@ -1,0 +1,98 @@
+/* ----------------Head---------------- */
+.header{
+	background: #aa61de;
+	margin: -.58%;
+	width: 101%;
+	height: 30%;
+	display: flex;
+	white-space:nowrap;
+}
+.txtBus{
+	margin-top: 8% ;
+	margin-left: 20% ;
+	height: 12%;
+}
+
+.txtbusqueda{
+	font-size: 100%;
+	width: 350%;
+	height: 400%;
+	
+}
+
+
+.botonBus{
+	margin-top: -7% ;
+	margin-left: 330% ;
+	width: 50%;
+	height: 90%;
+}
+
+
+.BotonBusqueda{
+	font-size: 100%;
+	width: 100%;
+	height:  60%;
+
+}
+.icono{
+
+	margin-top: .5%;
+	margin-left:  1%;
+}
+.imgPerfil{
+	margin-top: 1% ;
+	margin-left: 69% ;
+}
+
+.imgCarrito{
+	margin-top: 1%;
+	margin-left: 1% ;
+	text-align: center;
+}
+
+/* ----------------Menu---------------- */
+
+.Menu{
+	background: #d3b2eb;
+	margin-left: -.5%;
+	margin-top: .58%;
+	display: flex;
+	width: 101%;
+	height: 200%;
+	font-size: 150%;
+	color: white;
+}
+
+.MenuDepartamento{
+	margin-left: 5%;
+	margin-top: -.1%;
+}
+
+.MenuWallet{
+	margin-left: 10%;
+}
+
+.MenuPromociones{
+	margin-left: 10%;
+}
+
+.MenuAyuda{
+	margin-left: 10%;
+
+}
+
+select, option{
+	font-size: 80%;
+	color: white;
+	background: #d3b2eb;
+}
+
+
+.paginaMostrar{
+		margin-top: 0%;
+		width: 100%;
+		height: 1670px;
+
+}
+

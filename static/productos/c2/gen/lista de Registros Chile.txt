@@ -1,0 +1,15 @@
+insert into productos values(75,'sby3qm4p3u','Chile Guajillo mod: aa0u7',136,199,'Super','Chile de nuestros mejores provedores del estado de Puebla, con una calidad de 8 estrellas de 1.60 kg','Guajillo');
+insert into productos values(76,'oy9s2j8tkj','Chile Piquin mod: 4tuk6',76,183,'Super','Chile de nuestros mejores provedores del estado de Puebla, con una calidad de 10 estrellas de 3.71 kg','Piquin');
+insert into productos values(77,'yp8wwjmkzy','Chile Habanero mod: abl7n',177,192,'Super','Chile de nuestros mejores provedores del estado de Coahuila, con una calidad de 9 estrellas de 3.24 kg','Habanero');
+insert into productos values(78,'7sr9hcng4w','Chile Pasilla mod: nje7k',153,189,'Super','Chile de nuestros mejores provedores del estado de Puebla, con una calidad de 9 estrellas de 3.60 kg','Pasilla');
+insert into productos values(79,'4aau0hk7q9','Chile Pasilla mod: m9in7',131,137,'Super','Chile de nuestros mejores provedores del estado de Aguascalientes, con una calidad de 7 estrellas de 3.13 kg','Pasilla');
+insert into productos values(80,'mzbx73pu0j','Chile Arbol mod: zkz8s',114,168,'Super','Chile de nuestros mejores provedores del estado de Puebla, con una calidad de 7 estrellas de 1.03 kg','Arbol');
+insert into productos values(81,'k009mlugki','Chile Guajillo mod: vtij2',60,132,'Super','Chile de nuestros mejores provedores del estado de Coahuila, con una calidad de 10 estrellas de 1.85 kg','Guajillo');
+insert into productos values(82,'qy6njpwspy','Chile Pasilla mod: lgiyk',67,152,'Super','Chile de nuestros mejores provedores del estado de Chihuahua, con una calidad de 8 estrellas de 0.71 kg','Pasilla');
+insert into productos values(83,'8ttz3cit9c','Chile Pasilla mod: aptok',152,114,'Super','Chile de nuestros mejores provedores del estado de Chihuahua, con una calidad de 10 estrellas de 2.36 kg','Pasilla');
+insert into productos values(84,'rtuyxvy2ig','Chile Pasilla mod: myks9',110,126,'Super','Chile de nuestros mejores provedores del estado de Chihuahua, con una calidad de 7 estrellas de 3.17 kg','Pasilla');
+insert into productos values(85,'2ubarnmn0i','Chile Guajillo mod: jumci',92,153,'Super','Chile de nuestros mejores provedores del estado de Chihuahua, con una calidad de 10 estrellas de 1.94 kg','Guajillo');
+insert into productos values(86,'cy32a85tjo','Chile Pasilla mod: tyjku',167,159,'Super','Chile de nuestros mejores provedores del estado de Aguascalientes, con una calidad de 10 estrellas de 3.90 kg','Pasilla');
+insert into productos values(87,'ztireqo21g','Chile Guajillo mod: 79qra',160,170,'Super','Chile de nuestros mejores provedores del estado de Aguascalientes, con una calidad de 10 estrellas de 0.78 kg','Guajillo');
+insert into productos values(88,'ds6vvfw4i1','Chile Habanero mod: 4a1hc',62,181,'Super','Chile de nuestros mejores provedores del estado de Coahuila, con una calidad de 8 estrellas de 0.65 kg','Habanero');
+insert into productos values(89,'u3fm9q62z5','Chile Pasilla mod: n6it9',66,123,'Super','Chile de nuestros mejores provedores del estado de Puebla, con una calidad de 8 estrellas de 1.92 kg','Pasilla');

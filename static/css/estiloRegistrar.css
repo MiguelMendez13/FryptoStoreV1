@@ -1,0 +1,14 @@
+.formularioRes{
+    margin-top:3%;
+    border-style: solid;
+	border-color: black;
+	border-radius: 15%;
+
+    width: 30%;
+}
+table{
+    border-spacing: 10px;
+}
+.boton{
+    padding-top: -2%;
+}

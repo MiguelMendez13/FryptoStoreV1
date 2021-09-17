@@ -1,0 +1,153 @@
+.slider{
+	width: 100%;
+	height: 80%;
+	background: #c062cc;
+	overflow: hidden;
+	margin: auto;
+}
+.slider img{
+	width: 35%;
+	height: 100%;
+	border-width: 2%;
+	border-style: solid;
+	border-color: black;
+
+}
+.slider ul{
+
+	display: flex;
+	width: 500%;
+	margin-left: 25%;
+	animation: cambio 30s infinite alternate;
+}
+.slider li{
+	width: 100%;
+	list-style: none;
+
+}
+
+
+/*--------------VISTOS------------*/
+.vistos_reciente{
+	color: white;
+	font-size: 150%;
+	margin-top: 1%;
+	display: flex;
+
+}
+.reciente1{
+	border-width: 2%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 15%;
+	margin-left: 5%;
+	background: #a671de;
+	width: 20%;
+	height: 15%;
+}
+.reciente2{
+	border-width: 2%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 15%;
+	margin-left: 14%;
+	background: #a671de;
+	width: 20%;
+	height: 15%;
+}
+.reciente3{
+	border-width: 2%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 15%;
+	margin-left: 14%;
+	background: #a671de;
+	width: 20%;
+	height: 15%;
+}
+
+
+
+/*--------------Recomendaciones-------------*/
+.categoria{
+	margin-top: 1%;
+	display: flex;
+/*	width: 15%
+	height: 15%;*/
+}
+.C1P1{
+	background: #a671de;
+	margin-left: 4%;
+	width: 15%;
+	height: 15;
+	border-width: 2%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 15%;
+	color: white;
+}
+.C1P2{
+	background: #a671de;
+	margin-left: 4%;
+	width: 15%;
+	height: 15;
+	border-width: 2%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 15%;
+	color: white;
+}
+
+.C1P3{
+	background: #a671de;
+	margin-left: 4%;
+	width: 15%;
+	height: 15;
+	border-width: 2%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 15%;
+	color: white;
+}
+.C1P4{
+	background: #a671de;
+	margin-left: 4%;
+	width: 15%;
+	height: 15;
+	border-width: 2%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 15%;
+	color: white;
+}
+
+.C1P5{
+	background: #a671de;
+	margin-left: 4%;
+	width: 15%;
+	height: 15;
+	border-width: 2%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 15%;
+	color: white;
+}
+
+
+
+@keyframes cambio{
+	0% {margin-left: 29.7%;}
+	15%{margin-left: 29.7%;}
+	
+	20%{margin-left: -70.3%;}
+	35%{margin-left: -70.3%;}
+
+	40%{margin-left: -170.3%;}
+	55%{margin-left: -170.3%;}
+
+	60%{margin-left: -270.3%;}
+	75%{margin-left: -270.3%;}
+
+	80%{margin-left: -370.3%;}
+	100%{margin-left: -370.3%;}
+}

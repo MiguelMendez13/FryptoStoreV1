@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>Frypto Store</title>
+	<link rel="stylesheet" href="{% static 'css/estilopie.css' %}">
+	<link rel="stylesheet" href="{% static 'css/estilohead.css' %}">
+	<link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+</head>
+<body>
+	<div class="header">
+		<div class="icono">
+			<a href="/index/"> <img src="{% static  '/imagenes/cabeza/logo1.2 4k.png' %}" width="70" height="70"/> </a>
+
+		</div>
+		<form action="#" method="get">
+			<div class="txtBus"><input type="text" class="txtbusqueda" name="busq"></div>
+			
+			<div class="botonBus"><input type="submit" value="Buscar" class="BotonBusqueda"/></div>
+		</form>
+
+		<div class="imgPerfil">
+			<a href="/perfil/"><img src="{% static  '/imagenes/cabeza/perfil.png' %}" width="50" height="50"/></a>
+		</div>
+
+		<div class="imgCarrito">
+			<a href="/carrito/"><img src="{% static  '/imagenes/cabeza/carrito.png' %}" width="50" height="50"/></a>
+			<font align="center" color="white" id="TotalProductos">{{ Nupro }}</font></a>
+		</div>
+	</div>
+
+	<div class="Menu">
+		<div class="MenuDepartamento">
+			<select name="Departamento">
+				<option>Departamento</option>
+				<option>Linea Blanca</option>
+				<option>Super</option>
+				<option>Computadora y Laptop</option>s
+				<option>Calulares</option>
+				<option>Ropa y Zapatos</option>
+				<option>Electronicos</option>
+			</select>
+			
+		</div>
+		<div class="MenuWallet">
+			<a href="/wallet/">Wallet</a>
+		</div>
+		<div class="MenuPromociones">
+			<a href="http://127.0.0.1/TiendaCrypto/promociones/">Promociones
+			</a>
+		</div>
+		<div class="MenuAyuda">
+			Ayuda
+		</div>
+
+	</div>

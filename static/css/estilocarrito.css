@@ -1,0 +1,26 @@
+
+.ventana{
+	width: 100%;
+	display: flex;
+}
+.listacarrito{
+	margin-left: 10%;
+	width: 50%;
+	white-space:nowrap;
+}
+.listacarrito td{
+	border-bottom:2px solid #000000;
+}
+.listacarrito table{
+	width: 100%;
+}
+.infoPago{
+	margin-left: 1%;
+	width: 30%;
+}
+
+.articulos{
+	margin-left:auto;
+	padding: auto;
+	text-align: center;
+}

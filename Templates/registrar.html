@@ -1,0 +1,43 @@
+{% load static %}
+{% include "cabeza.html" %}
+<link rel="stylesheet" href="{% static 'css/estiloRegistrar.css' %}">
+<script src="{% static 'js/registrar.js' %}"></script>
+<center>
+<div class="formularioRes">
+
+	
+		<h1>Registrar</h1>
+	<h3>
+	
+	<form class="formulario" id="formulario">
+	<table border="0">
+	<tr>
+		<td align="right">Nombre(s):</td> <td><input type="text" id="name" name="nombre"/></td>
+	</tr>
+	<tr>
+		<td align="right">Apellido Paterno:</td> <td> <input type="text" id="ap" name="apaterno"/></td>
+	</tr>
+	<tr>
+		<td align="right">Apellido Materno:</td> <td> <input type="text" id="am" name="amaterno"/></td>
+	</tr>
+	<tr>
+		<td align="right">Telefono: </td> <td><input type="number" id="nmb" name="numero"/></td>
+	</tr>
+	<tr>
+		<td align="right">Correo:  </td> <td> <input type="email" id="correo" name="mail"/></td>
+	</tr>
+	
+	<tr>
+		<td align="right">Contraseña: </td> <td><input type="password" id="psw" name="password"/></td>
+	</tr>
+	<tr>
+	</table>
+	</form>
+
+	<button onClick="agregar()" class="boton" id="boton">Registrar</button>
+	</h3>
+
+
+</div>
+</center>
+{% include "pie.html" %}

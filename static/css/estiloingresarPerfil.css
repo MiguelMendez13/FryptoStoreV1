@@ -1,0 +1,13 @@
+.centro{
+    margin-top: 3%;
+    padding: 0%;
+    border-style: solid;
+	border-color: black;
+	border-radius: 15%;
+
+    width: 30%;
+}
+
+.formulario{
+    padding: 5%;
+}

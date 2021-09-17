@@ -1,0 +1,79 @@
+{% load static %}
+{% include "cabeza.html" %}
+
+<!--
+#IDProducto(10)
+#CodigoProducto varchar(10), 
+#Nombre varchar(50), 
+#Precio Integer(5),
+#Existencias Integer(5),
+#Departamento varchar(30),
+#Descripcion Varchar(150),
+#Marca Varchar(30)
+-->
+
+<link rel='stylesheet' href="{% static 'css/estilocarrito.css' %}">
+<script src="{% static 'js/carrito.js' %}"></script>
+
+<h1>&nbsp&nbsp&nbsp&nbsp&nbspLista de Carrito:</h1><br>
+<div class='ventana'>
+<div class='listacarrito'>
+<table>
+
+	{% for item in Lsfinal %}
+	<tr>
+		{% if item.5 == "Linea_Blanca" %}
+		{% with 'productos/c1/ProductosGen/'|add:item.1|add:'.jpg' as image_static %}
+		<td><img src='{% static  image_static %}' width='40%' align='center'/> </td>
+		{% endwith %}
+		{% endif %}
+		<td><h2>{{ item.2 }}
+		<br><font color='red'>${{ item.3 }}</font></h2></td>
+		
+		<td>
+		<button onClick="Addd('{{ item.1 }}')">+</button>
+		
+		<input type="text" value="{{ item.8 }}" readonly="readonly" class="articulos" id="Input{{ item.1 }}">
+		<button onClick="Dell('{{ item.1 }}',1)">-</button><br>
+		
+		<center><button onClick="Dell('{{ item.1 }}',2)"><font color='red'><h2>Borrar</h2></font></button></center>
+		</td>
+	</tr>
+	{% endfor %}
+</table>
+</div>
+
+<div class="infoPago">
+	<table border="2%">
+		<tr>
+		<td>
+			<h3>Subtotal de <?php echo $_SESSION["Ncompras"]?> productos : <?php echo $Subtotal;?></h3>
+			<h3>Descuento : <?php echo $Descuento;?></h3>
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<h3>Envio: <?php echo $Envio; ?> </h2>
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<h3><font id="Totall">Total: {{ SBT }} </font></h3>
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<center><button><h2>Proceder al Pago</h2></button></center>
+		</td>
+		</tr>
+	</table>
+</div>	
+</div>
+
+
+
+
+
+
+{% include "pie.html" %}
+

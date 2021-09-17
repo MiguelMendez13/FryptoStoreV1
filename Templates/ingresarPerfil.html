@@ -1,0 +1,21 @@
+{% load static %}
+{% include "cabeza.html" %}
+<link rel="stylesheet" href="{% static 'css/estiloingresarPerfil.css' %}">
+<center><div class='centro'>
+
+    
+<form class="formulario" method="post" action="#">
+    <h1>Iniciar Sesion</h1>
+    <table>
+    <tr><div id="correo"><td align="right"><h2>Correo:</h2> </td><td><input type="text" name="usuarioEntrar"/></td></div></tr>
+    <tr></tr><div id="password"><td align="right"><h2>Contraseña:</h2></td> <td><input name="pswrd" type="password"/></td></div></tr>
+    </table>
+    <input type="submit" value="Ingresar"/>
+    <a href="/registrar/"><h3>Registrar</h3></a>
+    <h1><font color="red">{{error}}</font></h1>
+</form>
+
+
+
+</div></center>
+{% include "pie.html" %}

@@ -1,0 +1,129 @@
+{% load static %}
+{% include "cabeza.html" %}
+<link rel="stylesheet" href="{% static 'css/indexEstilo.css' %}">
+	<div class="slider">
+		<ul>
+			<li><a href="{% static  'imagenes/promos/1.png' %}"><img src="{% static  'imagenes/promos/1.png' %}"></a></li>
+			<li><a href="{% static  'imagenes/promos/2.png' %}"><img src="{% static  'imagenes/promos/2.png' %}"></a></li>
+			<li><a href="{% static  'imagenes/promos/3.png' %}"><img src="{% static  'imagenes/promos/3.png' %}"></a></li>
+			<li><a href="{% static  'imagenes/promos/4.png' %}"><img src="{% static  'imagenes/promos/4.png' %}"></a></li>
+			<li><a href="{% static  'imagenes/promos/5.png' %}"><img src="{% static  'imagenes/promos/5.png' %}"></a></li>
+		</ul>
+	</div>
+	<div class="vistos_reciente">
+
+		<div class="reciente1" align=center>
+			producto1
+			<br><br><br><br><br><br><font color="white" size="4%">10 pesos</font>
+		</div>
+		<div class="reciente2" align=center>
+			producto2
+			<br><font color="white" size="4%">20 pesos</font>
+		</div>
+		<div class="reciente3" align=center>
+			producto3
+			<br><font color="white" size="4%">30 pesos</font>
+		</div>
+	
+	</div>
+
+	<br>
+	<font align="center">
+	<font size="5%">Linea Blanca</font>
+	<div class="categoria">
+
+		{% for item in LLB %}
+		
+			<div class="C1P{{ item.3 }}">
+				<a href="/MostrarArticulo/LB/{{ item.0 }}" style="text-decoration:none">
+				<h3><font color='white'>{{ item.1 }}</font></h3>
+				{% with 'productos/c1/ProductosGen/'|add:item.0|add:'.jpg' as image_static %}	
+				<img src="{% static  image_static %}"" width='50%' /><br>
+				{% endwith %}
+				<font color='red' size='6%'>${{ item.2 }}</font>
+				</a>
+			</div>
+		
+		{% endfor %}
+	
+	</div>
+	<br>
+	<font size="5%">Super</font>
+	<div class="categoria">
+			
+		<div class="C1P1">Chiles</div>
+		
+		<div class="C1P2">Pastas</div>
+			
+		<div class="C1P3">Frijoles</div>
+			
+		<div class="C1P4">Carne</div>
+			
+		<div class="C1P5">Pollo</div>
+	</div>
+
+	<br>
+	<font size="5%">Laptops y Computadoras</font>
+	<div class="categoria">
+			
+		<div class="C1P1">Computadora Gamer 1</div>
+		
+		<div class="C1P2">Computadora Gamer 2</div>
+			
+		<div class="C1P3">Computadora Gamer 3</div>
+			
+		<div class="C1P4">Laptop Oficina</div>
+			
+		<div class="C1P5">Laptop Gamer</div>
+	</div>
+	
+	<br>
+	<font size="5%">Celulares</font>
+	<div class="categoria">
+			
+		<div class="C1P1">Celular 1</div>
+		
+		<div class="C1P2">Celular 2</div>
+			
+		<div class="C1P3">Celular 3</div>
+			
+		<div class="C1P4">Celular 4</div>
+			
+		<div class="C1P5">Celular 5</div>
+	</div>
+
+	<br>
+	<font size="5%">Ropa y Zapatos</font>
+	<div class="categoria">
+			
+		<div class="C1P1">Zapatos 1</div>
+		
+		<div class="C1P2">Tenis 1</div>
+			
+		<div class="C1P3">Vestido</div>
+			
+		<div class="C1P4">Playera</div>
+			
+		<div class="C1P5">Pantalon</div>
+	</div>
+
+	<br>
+	<font size="5%">Electronicos</font>
+	<div class="categoria">
+			
+		<div class="C1P1">Zapatos 1</div>
+		
+		<div class="C1P2">Tenis 1</div>
+			
+		<div class="C1P3">Vestido</div>
+			
+		<div class="C1P4">Playera</div>
+			
+		<div class="C1P5">Pantalon</div>
+	</div>
+</font>
+	</div>
+
+
+{% include "pie.html" %}
+

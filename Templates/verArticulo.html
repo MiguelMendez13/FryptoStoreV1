@@ -1,0 +1,58 @@
+{% load static %}
+
+{% include "cabeza.html" %}
+<!--<h1>{{ stringg }}</h1>
+<h2>{{ dpto }}</h2>
+#IDProducto(10)
+#CodigoProducto varchar(10), 
+#Nombre varchar(50), 
+#Precio Integer(5),
+#Existencias Integer(5),
+#Departamento varchar(30),
+#Descripcion Varchar(150),
+#Marca Varchar(30)
+
+-->
+
+
+
+
+
+
+
+
+<script src="{% static 'js/verArticulo.js' %}"></script>
+<link rel="stylesheet" href="{% static 'css/estilosverarticulo.css' %}">
+<div class="ProductoMostrar">
+	<div class="imagenn">
+		{% with 'productos/c1/ProductosGen/'|add:stringg.0.1|add:'.jpg' as image_static %}
+		<img src="{% static image_static %}"/>
+		{% endwith %}
+	</div>
+	<div class="contenido">
+			<div class="nombreP">
+				<h1><font color=white size="12%">{{ stringg.0.2 }}</font></h1>
+			</div>
+			<div class="marcaP">
+				<h2>Marca: <font color=white>{{ stringg.0.7 }}</font></h2>
+			</div>
+			<div class="precioP">
+				<h1> ${{ stringg.0.3 }}</h1>
+			</div>
+			<div class="descripcion">
+				<h3><font color=white>Detalles del producto: <br> {{ stringg.0.6 }}</font></h3>
+			</div>
+			<div class="botones">
+				<div class="agregarCarrito">
+					
+					<button onClick="Addd('{{ stringg.0.1 }}')"><font size="6%">Agregar al Carrito</font></button>
+				</div>
+				<div class="comprarAhora">
+					<font size="6%"><button>Comprar Ahora</font></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{% include "pie.html" %}
+

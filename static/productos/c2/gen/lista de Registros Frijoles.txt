@@ -1,0 +1,15 @@
+insert into productos values(90,'4nffgl6c9t','Frijol Ballo mod: 8fnal',143,155,'Super','Frijol de nuestros mejores provedores del estado de Hidalgo, con una calidad de 7 estrellas de 0.86 kg','Ballo');
+insert into productos values(91,'eblagv6x2u','Frijol Ballo mod: 3px6u',127,137,'Super','Frijol de nuestros mejores provedores del estado de Aguascalientes, con una calidad de 9 estrellas de 0.70 kg','Ballo');
+insert into productos values(92,'rvy3ljyznj','Frijol Negro mod: r2ozo',102,192,'Super','Frijol de nuestros mejores provedores del estado de Hidalgo, con una calidad de 9 estrellas de 0.18 kg','Negro');
+insert into productos values(93,'vdzkt47bju','Frijol Negro mod: 0c87u',171,168,'Super','Frijol de nuestros mejores provedores del estado de Coahuila, con una calidad de 7 estrellas de 1.10 kg','Negro');
+insert into productos values(94,'2i62sfygq9','Frijol Peruano mod: unu77',62,116,'Super','Frijol de nuestros mejores provedores del estado de Hidalgo, con una calidad de 9 estrellas de 0.25 kg','Peruano');
+insert into productos values(95,'c1v7kvwsyi','Frijol Ballo mod: gmpl3',114,126,'Super','Frijol de nuestros mejores provedores del estado de Chihuahua, con una calidad de 7 estrellas de 1.01 kg','Ballo');
+insert into productos values(96,'h2ohxvhd9k','Frijol Ballo mod: b5njw',167,198,'Super','Frijol de nuestros mejores provedores del estado de Puebla, con una calidad de 8 estrellas de 0.53 kg','Ballo');
+insert into productos values(97,'itcn4temzo','Frijol Negro mod: rsw5n',67,144,'Super','Frijol de nuestros mejores provedores del estado de Hidalgo, con una calidad de 8 estrellas de 2.94 kg','Negro');
+insert into productos values(98,'e6bvmee3df','Frijol Negro mod: o70pb',94,146,'Super','Frijol de nuestros mejores provedores del estado de Hidalgo, con una calidad de 8 estrellas de 3.95 kg','Negro');
+insert into productos values(99,'hfkqjn54x0','Frijol Ballo mod: b44xc',122,181,'Super','Frijol de nuestros mejores provedores del estado de Puebla, con una calidad de 7 estrellas de 3.11 kg','Ballo');
+insert into productos values(100,'9pcbqyyg8s','Frijol Negro mod: phh5m',94,198,'Super','Frijol de nuestros mejores provedores del estado de Hidalgo, con una calidad de 7 estrellas de 3.69 kg','Negro');
+insert into productos values(101,'1pf6gu1nms','Frijol Negro mod: ymkfm',94,193,'Super','Frijol de nuestros mejores provedores del estado de Aguascalientes, con una calidad de 8 estrellas de 0.16 kg','Negro');
+insert into productos values(102,'kwn7oq16q0','Frijol Peruano mod: ru7nk',120,168,'Super','Frijol de nuestros mejores provedores del estado de Chiapas, con una calidad de 8 estrellas de 0.58 kg','Peruano');
+insert into productos values(103,'k40ijfsbjb','Frijol Peruano mod: tl1ay',71,155,'Super','Frijol de nuestros mejores provedores del estado de Chiapas, con una calidad de 10 estrellas de 1.91 kg','Peruano');
+insert into productos values(104,'01pdu9o9zl','Frijol Ballo mod: 46rls',142,172,'Super','Frijol de nuestros mejores provedores del estado de Coahuila, con una calidad de 7 estrellas de 2.99 kg','Ballo');

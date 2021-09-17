@@ -1,0 +1,35 @@
+.ProductoMostrar{
+	margin-top: 1%;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	background: #c062cc;
+}
+.imagenn {
+	background: white;
+	margin-top: 10%;
+	margin-left: 5%;
+	width: 50%;
+	height: 50%;
+	border-width: 2%;
+	border-style: solid;
+	border-color: black;
+	border-radius: 13%;
+}
+
+.imagenn img{
+	margin: center;
+	padding: center;
+	margin-top: 1%;
+	margin-left: 8% ;
+	width: 80%;
+	height: 90%;
+}
+
+.contenido{
+	margin-left: 5%;
+}
+
+.botones{
+	display: flex;
+}
